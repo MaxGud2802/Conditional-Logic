@@ -89,7 +89,7 @@ class ViewController: UIViewController {
             imageViewerFirst.image = UIImage(named:"image0")
             messageTopScreen.text = "Whoa, press it again!"
             messageTopScreen.textAlignment = .center
-            messageTopScreen.textColor = .white
+            messageTopScreen.textColor = .black
             backgroundScreen.backgroundColor = .clear
             labelBackgroundColor.backgroundColor = .red
         }else {imageViewerFirst.image = UIImage(named:"image0")
@@ -105,7 +105,7 @@ class ViewController: UIViewController {
             imageViewerFirst.image = UIImage(named:"image9")
             messageTopScreen.text = "Whoa, press it again!"
             messageTopScreen.textAlignment = .center
-            messageTopScreen.textColor = .black
+            messageTopScreen.textColor = .white
             backgroundScreen.backgroundColor = .clear
             labelBackgroundColor.backgroundColor = .black
         }else if imageViewerFirst.image == UIImage(named:"image9") {
@@ -174,7 +174,7 @@ class ViewController: UIViewController {
         }else {imageViewerFirst.image = UIImage(named:"image9")
             messageTopScreen.text = "Whoa, press it again!"
             messageTopScreen.textAlignment = .center
-            messageTopScreen.textColor = .black
+            messageTopScreen.textColor = .white
             backgroundScreen.backgroundColor = .clear
             labelBackgroundColor.backgroundColor = .black
         }
