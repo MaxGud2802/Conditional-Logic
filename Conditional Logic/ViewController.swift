@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         backgroundScreen.backgroundColor = .clear
         labelBackgroundColor.backgroundColor = .white
     }
-    
     @IBAction func buttonPressed(_ sender: Any) {
         if messageTopScreen.text == "Wow! Try pushing it another time." {
             messageTopScreen.text = "Push the button again!"
@@ -38,7 +37,5 @@ class ViewController: UIViewController {
             labelBackgroundColor.backgroundColor = .yellow
             imageViewerFirst.image = UIImage(named: "image3")
         }
-
     }
-
 }
