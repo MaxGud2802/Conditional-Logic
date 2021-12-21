@@ -99,31 +99,5 @@ class ViewController: UIViewController {
             backgroundScreen.backgroundColor = .clear
             labelBackgroundColor.backgroundColor = .white
         }
-
-            
-            
-            
-            
-            //            messageTopScreen.text == "Wow! Try pushing it another time." {
-            //            messageTopScreen.text = "Push the button again!"
-            //            messageTopScreen.textAlignment = .center
-            //            messageTopScreen.textColor = .white
-            //            backgroundScreen.backgroundColor = .clear
-            //            labelBackgroundColor.backgroundColor = .purple
-            //            imageViewerFirst.image = UIImage(named: "image2")
-            //        } else if {
-            //            labelBackgroundColor.backgroundColor = .purple
-            //            imageViewerFirst.image = UIImage(named: "image2")
-            //        } else if {
-            //            labelBackgroundColor.backgroundColor = .purple
-            //            imageViewerFirst.image = UIImage(named: "image2")
-            //        } else if {
-            //            messageTopScreen.text = "Wow! Try pushing it another time."
-            //            messageTopScreen.textAlignment = .center
-            //            messageTopScreen.textColor = .black
-            //            backgroundScreen.backgroundColor = .clear
-            //            labelBackgroundColor.backgroundColor = .yellow
-            //            imageViewerFirst.image = UIImage(named: "image3")
-            
     }
 }
