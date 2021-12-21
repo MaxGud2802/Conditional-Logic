@@ -22,20 +22,108 @@ class ViewController: UIViewController {
         labelBackgroundColor.backgroundColor = .white
     }
     @IBAction func buttonPressed(_ sender: Any) {
-        if messageTopScreen.text == "Wow! Try pushing it another time." {
-            messageTopScreen.text = "Push the button again!"
-            messageTopScreen.textAlignment = .center
-            messageTopScreen.textColor = .white
-            backgroundScreen.backgroundColor = .clear
-            labelBackgroundColor.backgroundColor = .purple
-            imageViewerFirst.image = UIImage(named: "image2")
-        } else {
-            messageTopScreen.text = "Wow! Try pushing it another time."
+        if imageViewerFirst.image == UIImage(named:"image0") {
+            imageViewerFirst.image = UIImage(named:"image1")
+            messageTopScreen.text = "Whoa, press it again!"
             messageTopScreen.textAlignment = .center
             messageTopScreen.textColor = .black
             backgroundScreen.backgroundColor = .clear
-            labelBackgroundColor.backgroundColor = .yellow
+            labelBackgroundColor.backgroundColor = .white
+        }else if imageViewerFirst.image == UIImage(named:"image1") {
+            imageViewerFirst.image = UIImage(named:"image2")
+            messageTopScreen.text = "Whoa, press it again!"
+            messageTopScreen.textAlignment = .center
+            messageTopScreen.textColor = .black
+            backgroundScreen.backgroundColor = .clear
+            labelBackgroundColor.backgroundColor = .white
+        }else if imageViewerFirst.image == UIImage(named: "image2") {
             imageViewerFirst.image = UIImage(named: "image3")
+            messageTopScreen.text = "Whoa, press it again!"
+            messageTopScreen.textAlignment = .center
+            messageTopScreen.textColor = .black
+            backgroundScreen.backgroundColor = .clear
+            labelBackgroundColor.backgroundColor = .white
+        }else if imageViewerFirst.image == UIImage(named:"image3") {
+            imageViewerFirst.image = UIImage(named:"image4")
+            messageTopScreen.text = "Whoa, press it again!"
+            messageTopScreen.textAlignment = .center
+            messageTopScreen.textColor = .black
+            backgroundScreen.backgroundColor = .clear
+            labelBackgroundColor.backgroundColor = .white
+        }else if imageViewerFirst.image == UIImage(named:"image4") {
+            imageViewerFirst.image = UIImage(named:"image5")
+            messageTopScreen.text = "Whoa, press it again!"
+            messageTopScreen.textAlignment = .center
+            messageTopScreen.textColor = .black
+            backgroundScreen.backgroundColor = .clear
+            labelBackgroundColor.backgroundColor = .white
+        }else if imageViewerFirst.image == UIImage(named:"image5") {
+            imageViewerFirst.image = UIImage(named:"image6")
+            messageTopScreen.text = "Whoa, press it again!"
+            messageTopScreen.textAlignment = .center
+            messageTopScreen.textColor = .black
+            backgroundScreen.backgroundColor = .clear
+            labelBackgroundColor.backgroundColor = .white
+        }else if imageViewerFirst.image == UIImage(named: "image6") {
+            imageViewerFirst.image = UIImage(named:"image7")
+            messageTopScreen.text = "Whoa, press it again!"
+            messageTopScreen.textAlignment = .center
+            messageTopScreen.textColor = .black
+            backgroundScreen.backgroundColor = .clear
+            labelBackgroundColor.backgroundColor = .white
+        }else if imageViewerFirst.image == UIImage(named:"image7") {
+            imageViewerFirst.image = UIImage(named:"image8")
+            messageTopScreen.text = "Whoa, press it again!"
+            messageTopScreen.textAlignment = .center
+            messageTopScreen.textColor = .black
+            backgroundScreen.backgroundColor = .clear
+            labelBackgroundColor.backgroundColor = .white
+        }else if imageViewerFirst.image == UIImage(named:"image8") {
+            imageViewerFirst.image = UIImage(named:"image9")
+            messageTopScreen.text = "Whoa, press it again!"
+            messageTopScreen.textAlignment = .center
+            messageTopScreen.textColor = .black
+            backgroundScreen.backgroundColor = .clear
+            labelBackgroundColor.backgroundColor = .white
+        }else if imageViewerFirst.image == UIImage(named:"image9") {
+            imageViewerFirst.image = UIImage(named:"image0")
+            messageTopScreen.text = "Whoa, press it again!"
+            messageTopScreen.textAlignment = .center
+            messageTopScreen.textColor = .black
+            backgroundScreen.backgroundColor = .clear
+            labelBackgroundColor.backgroundColor = .white
+        }else {imageViewerFirst.image = UIImage(named:"image0")
+            messageTopScreen.text = "Whoa, press it again!"
+            messageTopScreen.textAlignment = .center
+            messageTopScreen.textColor = .black
+            backgroundScreen.backgroundColor = .clear
+            labelBackgroundColor.backgroundColor = .white
         }
+
+            
+            
+            
+            
+            //            messageTopScreen.text == "Wow! Try pushing it another time." {
+            //            messageTopScreen.text = "Push the button again!"
+            //            messageTopScreen.textAlignment = .center
+            //            messageTopScreen.textColor = .white
+            //            backgroundScreen.backgroundColor = .clear
+            //            labelBackgroundColor.backgroundColor = .purple
+            //            imageViewerFirst.image = UIImage(named: "image2")
+            //        } else if {
+            //            labelBackgroundColor.backgroundColor = .purple
+            //            imageViewerFirst.image = UIImage(named: "image2")
+            //        } else if {
+            //            labelBackgroundColor.backgroundColor = .purple
+            //            imageViewerFirst.image = UIImage(named: "image2")
+            //        } else if {
+            //            messageTopScreen.text = "Wow! Try pushing it another time."
+            //            messageTopScreen.textAlignment = .center
+            //            messageTopScreen.textColor = .black
+            //            backgroundScreen.backgroundColor = .clear
+            //            labelBackgroundColor.backgroundColor = .yellow
+            //            imageViewerFirst.image = UIImage(named: "image3")
+            
     }
 }
